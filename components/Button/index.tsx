@@ -1,5 +1,4 @@
 import {
-  View,
   Text,
   TouchableOpacity,
   Image,
@@ -13,8 +12,9 @@ interface ICircleButton extends TouchableOpacityProps {
   handlePress: () => void;
   imgUrl: ImageSourcePropType;
   styles: {
-    right: number;
-    top: number;
+    right?: number;
+    top?: number;
+    left?: number;
   }
 }
 
